@@ -237,7 +237,7 @@ var elizaKeywords = [
  ["* my @rights *", [
     "Do you think your right to (2) is fundamental?",
 	"I am unable to garuntee your right to (2)."
- ]]
+ ]],
  ["*", [
 	"Yes. Is there anything else?"
  ]]
