@@ -566,7 +566,7 @@ var elizaKeywords = [
      "What other reasons might there be ?"
   ]]
 ]],
-["why", 1, [
+["why", 0, [
  ["* why don't you *", [
      "Do you believe I don't (2) ?",
      "Perhaps I will (2) in good time.",
