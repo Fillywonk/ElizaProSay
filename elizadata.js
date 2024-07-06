@@ -216,7 +216,8 @@ var elizaKeywords = [
 ["debts", 5, [
  ["*", [
     "goto debt"
- ]],
+ ]]
+]],
 ["fine", 5, [
  ["*", [
     "goto debt"
