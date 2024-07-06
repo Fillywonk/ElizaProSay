@@ -65,11 +65,11 @@ var elizaSynons = {
 "everyone": ["everybody", "nobody", "noone"],
 "family": ["mother", "mom", "father", "dad", "sister", "brother", "wife", "children", "child"],
 "happy": ["elated", "glad", "better"],
-"sad": ["unhappy", "depressed", "sick"]
-"rights": ["right"]
-"prison": ["jail", "detention"]
-"debt": ["debts","fines","debt","fine"]
-"inc": ["inc","incorporated","incorperated"]
+"sad": ["unhappy", "depressed", "sick"],
+"rights": ["right"],
+"prison": ["jail", "detention"],
+"debt": ["debts","fines","debt","fine"],
+"inc": ["inc","incorporated","incorperated"],
 };
 
 var elizaKeywords = [
