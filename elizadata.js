@@ -69,7 +69,7 @@ var elizaSynons = {
 "rights": ["right"],
 "prison": ["jail", "detention"],
 "debt": ["debts","fines","debt","fine"],
-"inc": ["inc","incorporated","incorperated"],
+"inc": ["inc","incorporated","incorperated"]
 };
 
 var elizaKeywords = [
@@ -216,37 +216,36 @@ var elizaKeywords = [
 ["debts", 5, [
  ["*", [
     "goto debt"
- ]]
+ ]],
 ["fine", 5, [
  ["*", [
     "goto debt"
  ]]
-]]
+]],
 ["fines", 5, [
  ["*", [
     "goto debt"
  ]]
-]]
+]],
 [["obligations", 5, [
  ["*",[
     "goto debt"
   ]]
-]]
-
+]],
 ["rights",4, [
  ["* my @rights *", [
     "Do you think your right to (2) is fundamental?",
 	"I am unable to garuntee your right to (2)."
- ]],
+ ]]
  ["*", [
 	"Yes. Is there anything else?"
  ]]
-]]
+]],
 ["right",4, [
   ["*", [
   "goto rights"
   ]]
-]]
+]],
 ["name", 15, [
  ["*", [
      "I am not interested in names.",
@@ -648,14 +647,15 @@ var elizaKeywords = [
      "Could there be some connection, do you suppose ?",
      "How ?"
   ]]
-]]
+]],
 ["judge", 5, [
   ["*", [
-	"The Judge is impartial."
-	"Do you have any reason to doubt the Judge's capabilities?"
+	"The Judge is impartial.",
+	"Do you have any reason to doubt the Judge's capabilities?",
 	"Judge Plott has the interest of justice in mind, do not worry."
   ]]
-]];
+]]
+];
 
 // regexp/replacement pairs to be performed as final cleanings
 // here: cleanings for multiple bots talking to each other
